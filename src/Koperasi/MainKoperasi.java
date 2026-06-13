@@ -89,7 +89,7 @@ public class MainKoperasi extends JFrame implements ActionListener {
         add(panelKanan, BorderLayout.CENTER);
 
         // Data Awal Dummy
-        daftarPeminjam.add(new Peminjam("Budi Santoso", "Bandung")); 
+        daftarPeminjam.add(new Peminjam("Adsu", "Bandung")); 
         daftarKendaraan.add(new Kendaraan("D 1234 ABC", "Mobil Avanza", 150000, 250000));
         refreshMonitor();
     }
