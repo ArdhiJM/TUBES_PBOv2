@@ -32,7 +32,7 @@ public class MainKoperasi extends JFrame implements ActionListener {
         panelKiri.setLayout(new BoxLayout(panelKiri, BoxLayout.Y_AXIS));
         panelKiri.setBorder(BorderFactory.createTitledBorder("Form Input Koperasi"));
 
-        // Bagian 1: Input Peminjam
+        // Bagian 1: Input Peminjam.
         panelKiri.add(new JLabel("=== DAFTAR PEMINJAM BARU ==="));
         txtNamaPeminjam = new JTextField(10);
         txtAlamatPeminjam = new JTextField(10);
